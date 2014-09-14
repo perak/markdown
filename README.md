@@ -1,5 +1,5 @@
-meteor-markdown
-===============
+markdown
+========
 
 GitHub flavored markdown parser for Meteor based on marked.js
 
