@@ -31,6 +31,7 @@ Thanks to:
 
 - Bozhao Yu for original <a href="https://github.com/yubozhao/meteor-markdown" target="_blank">meteor-markdown</a> package (I just made this package compatible with Meteor 0.9+)
 
+- Bernhard Millauer - for contributions to this package
 
 License
 -------
