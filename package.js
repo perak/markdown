@@ -2,7 +2,7 @@
 
 Package.describe({
 	summary: "GitHub flavored markdown parser for Meteor based on marked.js",
-	version: "1.0.4",
+	version: "1.0.5",
 	git: "https://github.com/perak/markdown.git"
 });
 
@@ -14,7 +14,7 @@ Package.onUse(function (api) {
 
 	api.use('templating');
 
-	api.add_files('marked.js', ['server', 'client']);
+	api.add_files('marked/lib/marked.js', ['server', 'client']);
 	api.add_files('markdown.js', ['server', 'client']);
 	api.export('Markdown', ['server', 'client']);
 
