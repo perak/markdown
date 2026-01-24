@@ -1,5 +1,5 @@
 {
-  "name": "markdown",
+  "name": "perak:markdown",
   "description": "GitHub flavored markdown parser for Meteor based on marked.js",
   "homepage": "https://github.com/perak/markdown",
   "author": "Petar Korponaic",
