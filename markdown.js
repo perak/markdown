@@ -1,6 +1,4 @@
-var mark = marked;
-
-mark.setOptions({
+marked.setOptions({
   gfm: true,
   tables: true,
   breaks: true
@@ -60,6 +58,6 @@ var latexDollarExtension = {
   }
 };
 
-mark.use({ extensions: [latexExtension, latexDollarExtension] });
+marked.use({ extensions: [latexExtension, latexDollarExtension] });
 
-Markdown = mark;
+Markdown = marked.parse;

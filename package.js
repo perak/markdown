@@ -14,7 +14,7 @@ Package.onUse(function (api) {
 
 	api.use('templating');
 
-	api.add_files('marked/lib/marked.js', ['server', 'client']);
+	api.add_files('marked.js', ['server', 'client']);
 	api.add_files('markdown.js', ['server', 'client']);
 	api.export('Markdown', ['server', 'client']);
 
