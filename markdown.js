@@ -58,6 +58,21 @@ var latexDollarExtension = {
   }
 };
 
+marked.use(markedHighlight.markedHighlight({
+  langPrefix: 'hljs language-',
+  highlight(code, lang) {
+	if(lang && hljs.getLanguage(lang)) {
+		return hljs.highlight(lang, code).value;
+	}
+
+	return hljs.highlightAuto(code).value;
+  }
+}));
+
+marked.use(markedGfmHeadingId.gfmHeadingId({
+	prefix: "pmd-"
+}));
+
 marked.use({ extensions: [latexExtension, latexDollarExtension] });
 
 Markdown = marked.parse;
