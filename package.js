@@ -15,8 +15,8 @@ Package.onUse(function (api) {
 
 	api.use('templating');
 
-	api.addFiles("detect-ie8.js");
-	api.addFiles("highlight.pack.js");
+	api.add_files("detect-ie8.js");
+	api.add_files("highlight.pack.js");
 
 	api.add_files('marked.js', ['server', 'client']);
 	api.add_files('marked-gfm-heading-id.js', ['server', 'client']);
