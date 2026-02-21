@@ -1,9 +1,9 @@
 {
   "name": "perak:markdown",
-  "description": "GitHub flavored markdown parser for Meteor based on marked.js",
+  "description": "GitHub flavored markdown parser for Meteor based on marked.js with syntax highlighting in code boxes and mathjax for rendering math expressions",
   "homepage": "https://github.com/perak/markdown",
   "author": "Petar Korponaic",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "git": "https://github.com/perak/markdown.git",
   "packages": {}
 }
